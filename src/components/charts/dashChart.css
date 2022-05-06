@@ -1,0 +1,46 @@
+.main-div {
+    justify-content: center;
+    display: contents;
+    width: 87%;
+    top: 10%;
+}
+.charts{
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.chart-1{
+    margin-right: 2%;
+    width: 41.5vw;
+    border-radius: 30px;
+    background-image: linear-gradient(to right, rgba(174, 0, 255, 0.068), rgba(174, 0, 255, 0.164),rgba(174, 0, 255, 0.068));
+}
+.chart-2 {
+    margin-left: 2%;
+    width: 41.5vw;
+    border-radius: 30px;
+    background-image: linear-gradient(to right, rgba(174, 0, 255, 0.068), rgba(174, 0, 255, 0.164),rgba(174, 0, 255, 0.068));
+}
+
+.day-buttons {
+    margin-top: 2%;
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 5%;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+    .chart-1 {
+      width: 50%;
+    }
+    .main-div {
+        width: 100%;
+        height: 100%;
+    }
+  }

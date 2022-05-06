@@ -1,0 +1,54 @@
+.Footer{
+    display: flex;
+    justify-content: center;
+    width:100%;
+    background-image: linear-gradient(to top, rgb(5, 1, 14),rgb(16, 1, 45));
+}
+
+.FooterBox{
+    display: flex;
+    flex-direction: column;
+    text-align: left;    
+    padding-top: 3vh;
+    margin: 0 4vw 1vw 4vw;
+    height:100%;
+
+}
+.FooterBoxSocial{
+    margin: 0 4vw;
+    height:100%;
+    padding-top: 3vh;
+}
+
+h3 {
+    text-align: center;
+    font-size: 32px;
+    
+}
+
+.noStyle {
+    text-align: left;
+    text-decoration:none;
+    color: rgb(131, 111, 204);
+    margin: 4px;
+    border: none;
+    background-color: rgba(179, 0, 255, 0);
+    font-size: 18px;
+}
+
+.icon {
+    font-size: 32px;
+    color: rgb(68, 40, 165);
+    background-color: rgba(0, 255, 255, 0);
+    border: none;
+    margin: 0 1px;
+}
+
+.noStyle:hover {
+    cursor:pointer
+}
+
+.credit{
+    margin-top: 15px;
+    font-size: 12px;
+}

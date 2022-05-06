@@ -1,0 +1,43 @@
+.Navbar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-bottom: rgba(94, 1, 180, 0.459) 2px solid;
+  background-image: linear-gradient(to right, rgba(174, 0, 255, 0.068), rgba(174, 0, 255, 0.164),rgba(174, 0, 255, 0.068));
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;  
+  justify-content: space-between;
+
+}
+
+ .Logo {
+  width: 90px;
+  height: 90px;  
+  border-radius: 100%;
+  color: rgb rgb(255, 0, 200);
+}
+
+.buttons {
+  font-size: 40px;
+  color: rgba(250, 7, 250, 0.959);
+  border: none;
+  background-color: rgba(174, 0, 255, 0);
+  margin: 0 1vw;
+  cursor: pointer;
+}
+
+.buttons:hover{
+  color: rgb(2, 102, 252);
+  transition: 1s ease-in;
+}
+
+.navLeft{
+  margin-left: 1vw;
+}
+
+.navMiddle{
+  margin-left: 10vw;
+}
+.navRight{
+  margin-right: 1vw;
+}

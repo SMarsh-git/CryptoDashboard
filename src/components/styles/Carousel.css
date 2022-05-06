@@ -1,0 +1,47 @@
+@import "react-alice-carousel/lib/alice-carousel.css";
+
+.alice-carousel {
+  width: 97vw;
+  flex: auto; 
+  margin-top: 2%;
+}
+
+.image {
+  margin-right: 10px;
+}
+.container {
+  flex: auto;
+  flex-direction: row; 
+  text-align: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.carousel {
+  height: 50%;
+  display: flex;
+  align-items: center;
+}
+
+.carouselItem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+    text-transform: uppercase;
+    width:5vw;
+    color: white;
+    text-decoration: none;
+}
+
+.alice-carousel__stage-item {
+  margin: 0 30px;
+}
+
+.red {
+  color: red;
+}
+
+.green {
+  color: rgb(53, 224, 47);
+}

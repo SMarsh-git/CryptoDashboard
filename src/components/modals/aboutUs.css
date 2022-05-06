@@ -1,0 +1,40 @@
+.InfoModal {
+    background-image: linear-gradient(to bottom right, rgba(174, 0, 255, 0.432), rgba(174, 0, 255, 0.692),rgba(174, 0, 255, 0.26));
+    border: 2px rgb(212, 0, 255) double;
+    border-radius: 20px;
+    color: rgb(252, 252, 252);
+    padding: 30px;
+    width: 60%;
+}
+
+.BackDrop {
+    background-image: linear-gradient(to bottom right, rgba(174, 0, 255, 0.432), rgba(174, 0, 255, 0.692),rgba(174, 0, 255, 0.26));
+    border: 2px rgb(212, 0, 255) solid;
+    border-radius: 20px;
+    color: rgb(252, 252, 252);
+    padding: 8px;
+}
+
+
+.titleDiv2{
+    display: flex;
+    justify-content: left;
+    margin-bottom: 6px;
+    font-size: 24px;
+    border-bottom: 2px rgb(212, 0, 255) solid;
+    text-decoration: underline;
+}
+
+.modalText {
+    font-size: 14px;
+}
+
+.aboutUsSect {
+    display:flex;
+    flex-direction: column;
+}
+
+.titleAbout{
+    margin-bottom: 4px;
+ 
+}
